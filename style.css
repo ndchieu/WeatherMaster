@@ -324,12 +324,13 @@ img {
         width: 100%;
         /* Chiều rộng 100% của màn hình */
     }
+    .wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
     .sidebar {
         width: 100%;
-        /* Sidebar chiếm toàn bộ chiều rộng */
-        min-width: unset;
         padding: 15px;
-        /* Thu nhỏ phần padding */
     }
     .main {
         width: 100%;
@@ -361,8 +362,9 @@ img {
     .sidebar {
         width: 100%;
         /* Sidebar chiếm toàn bộ chiều rộng */
-        max-width: 410px;
-        padding: 0 24px 0 10px;
+    }
+    .search {
+        max-width: 450px;
     }
     .search input {
         font-size: 12px;
